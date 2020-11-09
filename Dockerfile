@@ -1,5 +1,5 @@
 FROM nginx
 
 RUN apt-get update
-RUN apt-get -y install tcpdump
+RUN apt-get -y install tcpdump net-tools
 
